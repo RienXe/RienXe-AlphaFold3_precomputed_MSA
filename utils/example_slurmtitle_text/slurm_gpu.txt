@@ -1,0 +1,4 @@
+#!/bin/bash
+#SBATCH -p a100
+#SBATCH --gres=gpu:1
+#SBATCH --qos=four_a100_qos

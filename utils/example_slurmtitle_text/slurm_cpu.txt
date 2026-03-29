@@ -1,0 +1,5 @@
+#!/bin/bash 
+#SBATCH -p cpu
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=10
+#SBATCH --qos=cpu_qos
